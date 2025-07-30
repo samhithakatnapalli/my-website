@@ -1,0 +1,112 @@
+body{
+    background: linear-gradient(to right, rgb(246, 228, 204),rgb(210, 210, 250));
+}
+
+.menu-bar{
+    background-color: #9593d1;
+    border-radius: 20px;
+    height: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,2);
+    display: flex;
+    align-items: center;
+    justify-content: left; gap: 30px;
+    padding: 2px 20px;
+}
+
+.menu-bar a, .dropbtn{
+    text-decoration: none;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #9593d1;
+    box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 14px;
+    min-width:160px;
+}
+.dropdown-content a{
+    color: #ffffff;
+    padding: 12px 20px;
+    display: block;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    color: #b6bcdf;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.menu-bar a:hover, .dropbtn:hover{
+    color: #262939;
+}
+
+hr{
+    height: 1.5px;
+    width: 600px;
+    background: #7e85ad;
+}
+h1,h2,h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #3a4470;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(141, 82, 35);
+}
+.aboutme{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #442619;
+    font-weight: bold;
+    padding: 15px;
+    font-size: large;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+.skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill:hover{
+    transform: scale(1.03);
+}
+
+.proj{
+    display: flex;
+    padding: 20px;
+    gap: 40px;
+}
+.skills{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 10px 550px;
+    gap: 30px;
+}
+#one:hover,#two:hover,#three:hover,#four:hover,#five:hover{
+    transform: scale(1.03);
+}
+.contact{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3a4470;
+}
